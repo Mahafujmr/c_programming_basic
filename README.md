@@ -1,2 +1,2 @@
-# My C Program
+#  C Program Journey
 This is a simple C program that prints "Hello, World!"
