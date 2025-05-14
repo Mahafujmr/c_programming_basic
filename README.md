@@ -4,7 +4,7 @@
 ---
 > hello world syntax
 
-`#include <stdio.h`
+`#include <stdio.h>`
 ```c
 // int = keyword
 // main = function
