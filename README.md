@@ -1,2 +1,17 @@
 # ✅ C Programme Journey
-This is a simple C program that prints "Hello, World!"
+
+## Write Hello World .
+---
+> hello world syntax
+
+`#include <stdio.h`
+```c
+// int = keyword
+// main = function
+// printf = function
+// ; = semicolone
+int main()
+{
+    printf("Hello World");
+}
+```
