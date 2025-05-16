@@ -26,4 +26,14 @@ int main()
     printf("This Number is %d",number);
 }
 ```
+> Other Example
+```c
+#include <stdio.h>
+int main()
+{
+    int number =40;
+    int number1 = 60;
+    printf("This number are %d, %d",number, number1);
+}
+```
 
