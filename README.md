@@ -1,6 +1,8 @@
 # ✅ C Programme Journey
 
-##  write hello world use c programme .
+
+
+##  Write a programme that prints Hello World .
 
 > C programme syntax
 
