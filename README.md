@@ -177,26 +177,6 @@ C প্রোগ্রামিং ভাষায় printf() এবং scanf() �
 Format specifiers can be modified with precision and width. For example: %.2f prints a float with 2 digits after the decimal point.
 
 ## ❤Format Specifiers Table💥
----
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
 | Format Specifier| Data Type |Description | Example Output | 
 | --- |---| --- |--- |
 | %d or %i | int| Signed decimal integer | 10| 
@@ -214,24 +194,54 @@ Format specifiers can be modified with precision and width. For example: %.2f pr
 | %e or %E| float/double | Scientific notation | 1.234560e+03 | 
 | %g or %G| float/double| Shortest of %f or %e |1234.56 or 1.23456e+03 |
 |%%	| -	- |Prints a percent (%) sign | % |  
+---
 
+## ✅ C প্রোগ্রামের মৌলিক স্ট্রাকচার (Structure of a C Program)-
 
+- #include <stdio.h> -- ইনপুট-আউটপুট ফাংশনের জন্য প্রয়োজনীয় হেডার ফাইল।
+- 🔹 stdio.h মানে Standard Input Output Header File।
+- int main()  -- প্রোগ্রামের সূচনাবিন্দু।
+- printf(...) -- স্ক্রিনে টেক্সট প্রিন্ট করে।
+- return 0;	 -- প্রোগ্রামের সফল সমাপ্তি নির্দেশ করে।
+- 🔹 return 0; মানে প্রোগ্রাম সফলভাবে শেষ হয়েছে।
+---
+ ### প্রতিটি C প্রোগ্রাম সাধারণত নিচের মত স্ট্রাকচারে লেখা হয়:
+ ```c
+ // 1. Preprocessor Directives (Header Files)
+#include <stdio.h>
 
+// 2. Global Declarations (optional)
+int globalVar = 10;
 
+// 3. Function Declarations (Prototypes)
+void greet();
 
+// 4. main() Function - Entry Point
+int main() {
+    // Variable Declarations
+    int num = 5;
 
+    // Statements / Function Calls
+    printf("Hello, World!\n");
+    greet();
 
+    return 0; // Program ends
+}
 
+// 5. Function Definitions
+void greet() {
+    printf("Welcome to C Programming!\n");
+}
 
+ ```
+ ### প্রতিটি অংশের ব্যাখ্যা (In Bangla):
+- Preprocessor Directives – #include দিয়ে স্ট্যান্ডার্ড লাইব্রেরি বা কাস্টম হেডার ফাইল যোগ করা হয়। যেমন: #include <stdio.h>।
+- Global Declarations – প্রোগ্রামের যেকোনো জায়গায় ব্যবহার করার জন্য ভেরিয়েবল বা কনস্ট্যান্ট ঘোষণা।
+- Function Declarations / Prototypes – মূল ফাংশন ব্যবহারের আগে তার ঘোষণা দেওয়া হয়।
+- main() Function – প্রতিটি C প্রোগ্রামের শুরু main() ফাংশন থেকে হয়।
+- Function Definitions – যেসব ফাংশনের ঘোষণা আগেই দেওয়া হয়েছিল, তাদের সংজ্ঞা (definition) এখানে দেওয়া হয়।
 
-
-
-
-
-
-
-
-
+---
 ##  Write a programme that prints Hello World .
 
 > C programme syntax
