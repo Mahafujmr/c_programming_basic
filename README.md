@@ -33,10 +33,6 @@ Data Type হলো কোনো ভ্যারিয়েবল কী ধরন
 4. Void Type
 ### ✅ 1. Primary (Built-in) Data Types
 
-			
-		
-			
-			
 
 | Date Type | Description | Size (Typical)|Example |
 |---|---|---|---|
@@ -44,6 +40,44 @@ Data Type হলো কোনো ভ্যারিয়েবল কী ধরন
 | float	 | Decimal numbers (single precision) |  4 bytes|float pi = 3.14; |
 | double |Decimal numbers (double precision) | 8 bytes|double d = 2.718;|
 | char | Single character | 1 byte|char grade = 'A'; |
+
+---
+
+### 🔁 Variations of Primary Data Types-
+| Type | Description  |Example |
+|---|---|---|
+| short int | Smaller range of integers (2 bytes)	 |short int x = 1000;|
+| long int |Larger range of integers|long int big = 1000000; |
+| unsigned int|Only positive integers (no negatives) |unsigned int x = 300;|
+|long double |More precision for floating-point |long double pi = 3.14159;|
+
+---
+
+### 🧩 Derived Data Types-
+ These are based on the primary types.
+|Data Type | Description  |Example |
+|---|---|---|
+| array | Collection of values of the same type |int numbers[5] = {1,2,3,4,5};|
+| pointer |Stores the address of a variable|long int *ptr = &x; |
+| function|A block of code that performs a task |int add(int a, int b) { ... }|
+|string|Array of characters (not built-in type)|char name[] = "John";|
+
+---
+
+### 🧑‍💻 User-Defined Data Types-
+ Created by the user using built-in types.
+
+ 🚫 Void Type - last ones
+|Keyword | Description  |Example |
+|---|---|---|
+|struct	 | Group of different data types |struct Person { int age; char name[20]; };|
+| union |Memory shared by all members|	union Data { int i; float f; };|
+| enum|Set of named integer constants |enum Color { RED, GREEN, BLUE };|
+|typedef|Create a new name for a data type|typedef int Marks;|
+|void |	No value or return type|void sayHello() { ... }|
+
+---
+
 
 
 
