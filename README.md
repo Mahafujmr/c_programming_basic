@@ -6,16 +6,19 @@
 A C Program is a set of instructions written in the C programming language to perform a specific task.It follows the structure and syntax defined by the C language, which is a general-purpose, high-performance programming language.
 
 C was developed by Dennis Ritchie in 1972 at Bell Labs.
+
 ---
 ### Bangla Edition -
 (C প্রোগ্রাম হলো C প্রোগ্রামিং ভাষায় লেখা নির্দেশনার একটি সেট, যা একটি নির্দিষ্ট কাজ সম্পাদনের জন্য ব্যবহার করা হয়। এটি C ভাষার গঠন (structure) ও সিনট্যাক্স (syntax) অনুসরণ করে, যা একটি সাধারণ উদ্দেশ্য (general-purpose), উচ্চ-দক্ষতার (high-performance) প্রোগ্রামিং ভাষা।
 
 C ভাষা ১৯৭২ সালে ডেনিস রিচি (Dennis Ritchie) দ্বারা Bell Labs-এ ডেভেলপ করে।)
+
 ---
 ### 💻 C programme Data Type -
 🧠 What is a Data Type?
 
 A data type in programming (especially in C) defines the type of data a variable can store. It tells the compiler what kind of value (such as integer, float, character, etc.) will be stored in that variable.
+
 ---
 ### Bangla Edition -
 🧠 Data Type কী?
