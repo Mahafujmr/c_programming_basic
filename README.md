@@ -176,6 +176,46 @@ C প্রোগ্রামিং ভাষায় printf() এবং scanf() �
 
 Format specifiers can be modified with precision and width. For example: %.2f prints a float with 2 digits after the decimal point.
 
+## ❤Format Specifiers Table💥
+---
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+| Format Specifier| Data Type |Description | Example Output | 
+| --- |---| --- |--- |
+| %d or %i | int| Signed decimal integer | 10| 
+| %u| unsigned int | Unsigned decimal integer | 100  | 
+| %f| float | Floating-point number (6 decimal digits) |3.141593 | 
+| %.nf| float/double | Floating number with n decimal places | %.2f → 3.14  | 
+| %lf | double| Double (used with scanf)| -- | 
+| %c| char | Single character | A| 
+| %s| string| Null-terminated string | Hello | 
+| %ld|long int|Signed long integer | 123456789| 
+| %lld|long long int | Signed long long integer | 9223372036854775807  | 
+| %x| unsigned int| Hexadecimal (lowercase) | ff | 
+| %X| unsigned int | Hexadecimal (uppercase)| FF | 
+| %o|unsigned int| Octal number | 12  | 
+| %e or %E| float/double | Scientific notation | 1.234560e+03 | 
+| %g or %G| float/double| Shortest of %f or %e |1234.56 or 1.23456e+03 |
+|%%	| -	- |Prints a percent (%) sign | % |  
+
+
 
 
 
