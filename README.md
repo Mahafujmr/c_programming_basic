@@ -64,7 +64,7 @@ Data Type হলো কোনো ভ্যারিয়েবল কী ধরন
 
 ---
 
-### 🧑‍💻 User-Defined Data Types-
+### 🧑‍💻 User-Defined Data Types- 
  Created by the user using built-in types.
 
  🚫 Void Type - last ones
@@ -77,6 +77,105 @@ Data Type হলো কোনো ভ্যারিয়েবল কী ধরন
 |void |	No value or return type|void sayHello() { ... }|
 
 ---
+## 🚫C Programming Format Specifiers - Complete Details
+Format specifiers are used in C programming to specify the type of data being printed or scanned using printf() and scanf() functions. Each format specifier starts with a percentage symbol (%) followed by a character that indicates the type of data.
+
+### Bangla Edition -
+## ✅ C প্রোগ্রামিং ফরম্যাট স্পেসিফায়ার (Format Specifiers) — বিস্তারিত বাংলায়:
+
+C প্রোগ্রামিং ভাষায় printf() এবং scanf() ফাংশনের মাধ্যমে ডেটা ইনপুট ও আউটপুটের সময় কোন ধরনের ডেটা (যেমন: সংখ্যা, ভগ্নাংশ, অক্ষর, স্ট্রিং ইত্যাদি) প্রদর্শন বা গ্রহণ করা হবে তা বোঝাতে ফরম্যাট স্পেসিফায়ার ব্যবহার করা হয়।
+
+প্রত্যেকটি ফরম্যাট স্পেসিফায়ার % চিহ্ন দিয়ে শুরু হয় এবং এরপরে একটি নির্দিষ্ট অক্ষর থাকে যা ডেটা টাইপ নির্দেশ করে।
+
+  Below is a complete list of commonly used format specifiers in C, along with their meaning and examples.
+  
+1. %d or %i
+- Used for: Signed int (integer)
+- Example: printf("%d", 10); or scanf("%d", &x);
+- Description: Prints or reads a signed decimal integer.
+
+2.%u
+- Used for: Unsigned int
+- Example: printf("%u", 100);
+- Description: Prints an unsigned decimal integer.
+  
+
+3.%f
+
+- Used for: Float
+- Example: printf("%f", 3.14);
+- Description: Prints a floating-point number with six digits after decimal by default.
+
+4.%lf
+
+- Used for: Double
+- Example: scanf("%lf", &d);
+- Description: Used for reading double values with scanf().
+
+5.%c
+- Used for: Character
+- Example: printf("%c", 'A');
+- Description: Prints or reads a single character.
+
+6.%s
+
+- Used for: String
+- Example: printf("%s", "Hello");
+- Description: Prints or reads a sequence of characters (string).
+
+7.%ld
+
+- Used for: Long int
+- Example: printf("%ld", 123456789L);
+- Description: Prints a long signed integer.
+
+8.%lu
+
+- Used for: Unsigned long int
+- Example: printf("%lu", 123456789UL);
+
+9.%lld
+
+- Used for: Long long int
+- Example: printf("%lld", 9223372036854775807LL);
+
+10. %llu
+
+- Used for: Unsigned long long int
+- Example: printf("%llu", 18446744073709551615ULL);
+
+11. %x or %X
+
+- Used for: Hexadecimal integer
+- Example: printf("%x", 255); // Output: ff
+- Description: Lowercase (x) or uppercase (X) hexadecimal representation.
+
+12. %o
+
+- Used for: Octal integer
+- Example: printf("%o", 10); // Output: 12
+
+13. %e or %E
+
+- Used for: Scientific notation of float or double
+- Example: printf("%e", 1234.56);
+
+14. %g or %G
+
+- Used for: Shorter of %e and %f
+- Description: Automatically chooses between %f or %e depending on the value.
+
+15.%%
+
+- Used for: Printing the % symbol
+- Example: printf("Progress: 80%%");
+
+### Note:
+
+%f is used for both float and double when using printf(). But for scanf(), use %f for float and %lf for double.
+
+Format specifiers can be modified with precision and width. For example: %.2f prints a float with 2 digits after the decimal point.
+
 
 
 
