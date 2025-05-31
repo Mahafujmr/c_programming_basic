@@ -195,6 +195,7 @@ Format specifiers can be modified with precision and width. For example: %.2f pr
 | %g or %G| float/double| Shortest of %f or %e |1234.56 or 1.23456e+03 |
 |%%	| -	- |Prints a percent (%) sign | % |  
 ---
+![alt text](./assets/cp.png)
 
 ## ✅ C প্রোগ্রামের মৌলিক স্ট্রাকচার (Structure of a C Program)-
 
