@@ -9,10 +9,8 @@ int main()
     // show sceond number 
     scanf("%d",&number1);
     printf("Enter the sceond Number show :");
-    scanf("%d",number2);
-
-    printf(" Number are :   %d  %d\n", number1,number2);
-
+    scanf("%d", &number2);
+    printf(" Number are :   %d \n %d", number1,number2);
     return 0;
 
 }
