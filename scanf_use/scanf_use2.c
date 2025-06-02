@@ -1,4 +1,4 @@
-// write a programme scanf and show out put 
+// write a programme scanf and show out put - 5.19 video
 #include<stdio.h>
 int main()
 {
