@@ -1,8 +1,14 @@
-/// write a programme use scanf and data type float
+/*
+write a programme prints scanf and output result show
+*/
 #include<stdio.h>
-int main(){
-    float result1, result2;
-    printf("Show student Result Grade :");
-    scanf("%f %f", &result1, &result2);
-    printf(" The result are :   %.2f  %.2f\n",result1, result2);
+int main()
+{
+    int age;
+    float result;
+    printf("Enter my Output reslut: ");
+    printf("This is output Result");
+    scanf("%d,%f",&age, &result);
+    printf("Age: %d, Result : %.2f\n",age, result);
+    return 0;
 }
