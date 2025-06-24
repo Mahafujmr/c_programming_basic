@@ -19,8 +19,5 @@ int main()
 
     printf("%d \n",number); // int = %d
 
-
-
-
     return 0;
 }
