@@ -14,6 +14,7 @@ int main()
     printf("Division = %d\n",a/b);
     // display show Modulus = a%b;
     printf("Modulus= %d",a%b);
+    printf("Enter Show result");
 
     return 0;
 }
