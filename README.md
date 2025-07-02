@@ -360,3 +360,35 @@ int main()
 
 }
 ```
+## Operator Part 
+### Arithmetic Operator
+1 . Addition (+)= a+b
+
+2 . Subtraction (-)= a-b
+
+3 . MultiPlication (*) = a * b
+
+4 . Divison (/) = a/b
+
+5 . Modulus (%) = a%b
+### Example
+```c
+#include<stdio.h>
+int main()
+{
+    int a= 100;
+    int b = 60;
+    // display show  addition = a+b;
+    printf("Addition = %d\n",a+b);
+    // display show subtraction = a-b;
+    printf("Subtraction = %d\n",a-b);
+    // display show Multiplication = a*b;
+    printf("Multiplication = %d\n",a*b);
+    // display show Division = a/b;
+    printf("Division = %d\n",a/b);
+    // display show Modulus = a%b;
+    printf("Modulus= %d",a%b);
+
+    return 0;
+}
+```
