@@ -4,9 +4,9 @@ int main()
 { 
   int a = 20;
   int output = +a;
-  printf("value = %d\n",output);
+  printf("value = %d",output);
    int result = -a;
-  printf("value = %d\n",result);
+  printf("value = %d",result);
 
     return 0;
 }
