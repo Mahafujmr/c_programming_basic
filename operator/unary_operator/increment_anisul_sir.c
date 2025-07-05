@@ -11,8 +11,8 @@ int main()
 
    int m = 10;
   int n = ++m;
-  printf("a = %d\n",m);
-  printf("b = %d",n);
+  printf("m = %d\n",m);
+  printf("n = %d",n);
 
     return 0 ;
 }
