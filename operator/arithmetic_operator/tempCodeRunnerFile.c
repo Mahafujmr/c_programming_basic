@@ -14,8 +14,6 @@ int main()
  printf("The Multiplie Value = %d\n",result);
  result = num1 / num2;
  printf("The Division value =%d\n",result);
- result = num1 % num2;
- printf("The Remider value =%d\n",result);
 
     return 0;
 }
