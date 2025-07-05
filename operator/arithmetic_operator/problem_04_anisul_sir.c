@@ -7,7 +7,8 @@ int main()
     scanf("%f",&base);
     printf("Enter Height value :");
     scanf("%f",&height);
-    area = 1/2 * base * height;
+    area = (float) 1/2 * base * height; 
+    // type casting = float
     printf("The show Traiangel value = %.2f",area);
 
     return 0;
