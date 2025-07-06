@@ -6,6 +6,7 @@ int main()
     printf("Enter Your Mark:");
     scanf("%f", &marks);
 
+    // marks 80 = or up
     if (marks >= 80)
         printf("A+");
 
