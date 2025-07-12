@@ -1,40 +1,30 @@
-// write a programme nested if else
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int age;
-    printf("Enter Your age:");
+    
+    // Get user input
+    printf("Enter Your age: ");
     scanf("%d", &age);
-    if (age >= 15)
-    {
-        if (age >= 22)
-        
-            printf("You are Student");
-        
-        else
-        
-            printf("You are Not Student");
-    }
-
-        else
-        {
-            if (age >= 33)
-            {
-                if (age >= 30)
-                
-                    printf("I am fine");
-                
-                else
-                
-                    printf("I am not fine");
-                
+    
+    // First level: Check if age is 15 or above
+    if (age >= 15) {
+        // Second level: Check if age is 22 or above
+        if (age >= 22) {
+            // Third level: Check if age is 33 or above
+            if (age >= 33) {
+                printf("You are an adult professional\n");
+            } else {
+                printf("You are a young adult/student\n");
             }
-            else
-            {
-                printf("I read class 6");
-            }
+        } else {
+            // Age is between 15-21
+            printf("You are a teenager/student\n");
         }
-         return 0;
+    } else {
+        // Age is below 15
+        printf("You are a child\n");
     }
-
-   
+    
+    return 0;
+}
