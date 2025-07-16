@@ -3,7 +3,7 @@
 int main()
 {
     int tuhin ;
-    for (tuhin = 0; tuhin <= 50; tuhin++)
+    for (tuhin = 0; tuhin < 50; tuhin++)
     {
         printf("I am tuhin\n");
     }
