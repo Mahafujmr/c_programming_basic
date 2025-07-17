@@ -4,6 +4,8 @@
 1-> variable initilization
 2-> do {printf use and increment and decrement }
 3-> while ( use condition);
+first work - do block
+then work while depends condition
 */
 #include<stdio.h>
 int main()
