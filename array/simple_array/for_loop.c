@@ -7,6 +7,8 @@ printf ();
 #include<stdio.h>
 int main()
 {
+    // array initialization
+    // int number [3];->array declaration
     int number []={20,30,40,50,60};
     for(int index=0;index<5;index++){
         printf("%d\n",number[index]);
