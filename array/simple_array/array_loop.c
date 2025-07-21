@@ -1,4 +1,10 @@
 // write a programme array for loop
+/*
+- variable declaration
+-  use for loop(variable initialization,condition,increment)
+- instraction use printf
+- use scanf - input terminal
+*/
 #include<stdio.h>
 int main()
 {
