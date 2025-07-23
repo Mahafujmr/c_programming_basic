@@ -25,7 +25,7 @@ int main()
         addtion =addtion+numbers[index];
     }
     printf("Total Additon = %d\n",addtion);
-    average = addtion/5;
-    printf("Average is =%f\n ",average);
+    average = (float)addtion/5;
+    printf("Average is =%.2f\n ",average);
     return 0;
 }
