@@ -1,31 +1,19 @@
-// write a programme average 
+// write a programme students marks
 /*
-1- declare array - size 5
-2- declare sum variable
-3- declare average variable
-4- use for loop(initilazation, condition, increment){
-use printf and scanf
-}
-use for loop sum number {}
-5- printf sum 
-6- and use average 
+. array declaration
+variable declaration
+use for loop and average
 */
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int numbers [5];
-    int addtion =0;
-    float average ;
-
-    for(int index =0;index<5; index++){
-        printf("Index [%d] =",index);
-        scanf("%d",&numbers[index]);
+    int mathsSubject[5];
+    int totalMarks = 0;
+    float averageMarks;
+    for (int number = 0; number < 5; number++)
+    {
+        printf("Students Marks =%d", number);
+        scanf("%d", &mathsSubject[number]);
     }
-    for(int index =0;index<5; index++){
-        addtion =addtion+numbers[index];
-    }
-    printf("Total Additon = %d\n",addtion);
-    average = addtion/5;
-    printf("Average is =%f\n ",average);
     return 0;
 }
