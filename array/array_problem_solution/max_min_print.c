@@ -16,7 +16,9 @@ int main()
             minimumNumber = resultNumber[index];
         }
     }
+    // print maximum number
     printf("Maximum Number is = %d\n", maximumNumber);
+    // print minimum number
     printf("Minimum Number is = %d", minimumNumber);
     return 0;
 }
